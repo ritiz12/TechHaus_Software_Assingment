@@ -6,7 +6,7 @@ public class Question5 {
 
     public static double calculateTax(double income) {
         double taxAmount = 0.0;
-        //Calculate Tax Amount According to conditions 
+        //Calculate Tax Amount According to conditions
         if (income <= 250000) {
             taxAmount = 0.0;
         } else if (income <= 500000) {
